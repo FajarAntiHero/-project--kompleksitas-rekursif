@@ -4,12 +4,6 @@ class Faktorial:
     def __init__(self, data: int):
         self.data = data
 
-    # def hitung_faktorial(self) -> int:
-    #     hasil = 1
-    #     for i in range(1, self.data + 1):
-    #         hasil *= i
-    #     return hasil
-
     def hitung_faktorial(self) -> int:
         # Base case: if data is 0 or 1, the factorial is 1
         if self.data == 0 or self.data == 1:

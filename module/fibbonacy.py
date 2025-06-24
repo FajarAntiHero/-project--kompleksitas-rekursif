@@ -1,17 +1,5 @@
-# def hitung_fibonacci(n):
-#     a, b = 0, 1
-#     hasil = []
-#     for _ in range(n):
-#         hasil.append(a)
-#         a, b = b, a + b
-#     return hasil
-
-# n = int(input("Masukkan jumlah bilangan Fibonacci: "))
-# deret = fibonacci(n)
-# print("Deret Fibonacci:")
-# print(" ".join(str(x) for x in deret))
-
 from .clearTerminal import clear_terminal as ct
+
 class Fibonacci:
     def __init__(self, n: int):
         self.n = n
